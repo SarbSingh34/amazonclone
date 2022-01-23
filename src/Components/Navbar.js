@@ -63,7 +63,7 @@ class Navbar extends Component
                {/*  Footer navbar component */}
          
                  <div className="footer_part">
-                     <div className="content-part" style = {{display: 'flex',}}>
+                     <div className="content-part" style = {{display: 'flex'}}>
                          <div className="footer_text"> 
                        <i style = {{color:'white'}} class="fas fa-align-justify"></i>
                         </div>
