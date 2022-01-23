@@ -1,0 +1,53 @@
+.Navbar_component
+{
+    background-color: rgb(233, 15, 15);
+    height:10vh;
+    width:100%;
+    display:flex;
+}
+img
+{
+  width:95%;
+}
+.img_part
+{
+  width:10%;
+}
+span
+{
+color:rgb(0, 0, 0);
+font-size: larger;
+
+}
+.fas
+{
+    color:rgb(0, 0, 0);
+}
+.address_part
+{
+margin:9px;
+}
+.searchbar
+{
+margin:1%;
+display: flex;
+width:50%;
+}
+select
+{
+ padding: 15% 0%;
+}
+input
+{
+ width:70%;
+}
+button
+{
+  background-color: rgb(226, 136, 17);  
+  padding:15px; 
+}
+.fal
+{
+font-size: larger;
+
+}
