@@ -14,12 +14,12 @@
 .searchbar
 {
 width:50%;
-background-color: rgb(25, 81, 235);
+background-color: rgb(5, 5, 5);
 }
 .third-part
 {
   width:25%;
-  background-color: rgb(247, 72, 3);
+  background-color: rgb(14, 14, 14);
 }
 img
 {
@@ -57,8 +57,9 @@ input
 }
 button
 {
-  background-color: rgb(226, 136, 17);  
+  background-color: #febd69;  
   padding:11px; 
+  border-radius: 1px 11px 11px  0  ;
 }
 .fal
 {
@@ -88,8 +89,8 @@ padding: 17% 2%;
 }
 .third-one
 {
-    margin: 3%;
-    color:white;
+margin: 3%;
+color:white;
 }
 .third-two
 {
