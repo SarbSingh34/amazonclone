@@ -74,7 +74,9 @@ class Navbar extends Component
                           <div className="footer_text">  Fashion  </div>
                           <div className="footer_text">  Prime  </div>
                           <div className="footer_text">  Computers  </div>
-                          <div className="footer_text">  Customer Service  </div>
+                          <div className="footer_text">  Amazon   </div>
+                          <div className="footer_text">  Books   </div>
+                          
                      </div>
                  </div>
 
