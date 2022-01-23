@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import Mainpagestyle from "./Mainpagestyle.css";
+import Advertisement from "./Advertisement";
+import Advertisementimgdivide from './Advertisementimgdivide';
+
 
 export default class Mainpage extends 
 Component {
@@ -7,7 +10,13 @@ Component {
   {
     return (
             <div className='mainpagecarousel'>
-                 <div className='mainpage'>
+                  <div className='mainpage' 
+         style = {{paddingTop:'22%',display:'flex',justifyContent:'space-evenly'}}>
+                    <Advertisement />
+                    <Advertisement />
+                    <Advertisement />
+                    <Advertisement />
+                    <Advertisementimgdivide /> 
                  </div>
             </div> 
          );
