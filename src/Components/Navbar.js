@@ -55,8 +55,9 @@ class Navbar extends Component
                                     <div  style = {{fontSize:'16px',fontWeight:'bolder'}}> & Order  </div>
                                 </div>
                                 <div className="third-last">
-                                <i class="fas fa-shopping-cart"></i>
-                                  <div style = {{fontSize:'12px',fontWeight:'bolder'}}> Cart  </div>
+                                    
+                                   <span  style = {{fontSize:'26px',fontWeight:'bolder'}} >  <i class="fas fa-shopping-cart"></i>   </span>   
+                                   <span style  =  {{fontSize:'20px',fontWeight:'bolder'}}>   Cart  </span>
                                 </div>
                       </div>
              </div>
