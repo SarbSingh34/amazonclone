@@ -11,28 +11,36 @@ class Navbar extends Component
         return ( 
           <>
              <div className = "Navbar_component" >
-                    <div className = "img_part" >
-                        <img src = "images/amazon logo 11 .png"/>
-                    </div>
-                    <div className = "address_part" >
-                        <i class="fas fa-map-marker-alt"></i>
-                    <span>  Banglore   </span>
-                    </div>
-                    <div className="searchbar">
-                        <div>
-                            <select>
-                                <option value = "All" >   All  </option>
-                                <option value = "Clothes" > Clothes  </option>
-                                <option value = "Bags"> Bags  </option>
-                                <option value = "Shoes" > Shoes   </option>
-                                <option value = "Toys">  Toys    </option>
-                            </select>
-                       </div>
-                          <input type = "search" />
-                        <button>  <i class="fal fa-search"></i> </button>
-             
-                    </div>
-                    <div className="third-part">
+                 <div className="first-part">
+                            <div className = "img_part" >
+                                <img src = "images/amazon logo 11 .png"/>
+                            </div>
+                            <div className="address_part">
+                              <i class="fas fa-map-marker-alt"></i>
+                              <span>  Banglore   </span>
+                            </div>
+                             
+                         
+                 </div>
+                    
+                        <div className="searchbar">
+                               <div className="dropdown-first">
+                                  <select>
+                                       <option value = "All"> All </option>
+                                       <option value = "All"> Bags </option>
+                                       <option value = "All"> Toys  </option>
+                                       <option value = "All">  Caps </option>
+                                       <option value = "All"> Clothes </option>
+                                  </select>
+                                </div>
+                               <div className="dropdown-second">
+                                   <input type = "search" />
+                               </div>
+                               <div className="dropdown-third">
+                                 <button> <i class="far fa-search"></i></button>
+                               </div>
+                        </div>
+                       <div className="third-part">
                                 <div className="third-one">
                                     <span> Hello , Sign In </span>
                                     <span>Accounts & List  </span>
@@ -45,7 +53,7 @@ class Navbar extends Component
                                 <i class="fas fa-shopping-cart"></i>
                                 <span> Cart  </span>
                                 </div>
-                    </div>
+                      </div>
              </div>
          </>
          );
