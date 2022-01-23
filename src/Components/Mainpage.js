@@ -16,10 +16,12 @@ Component {
                     <Advertisement />
                     <Advertisement />
                     <Advertisement />
-                    {/* <Advertisementimgdivide /> 
+                    
                     <Advertisementimgdivide /> 
                     <Advertisementimgdivide /> 
-                    <Advertisementimgdivide />  */}
+                    <Advertisementimgdivide /> 
+                    <Advertisementimgdivide /> 
+                    
                  </div>
             </div> 
          );

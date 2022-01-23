@@ -7,7 +7,7 @@ const Advertisement = () =>
     <>
           <div className = "main_advertisement">
                 <div className="add_header">
-                     <span style = {{fontSize:'22px', fontWeight:'bolder',color:'black'}}>   Upgrade your home | Amazon Brands & more   </span>  
+                      <span style = {{fontSize:'22px', fontWeight:'bolder',color:'black'}}>   Upgrade your home | Amazon Brands & more   </span>  
                 </div>
                 <div className="add_body">
                         <img src = "images/add_body.jpg"/>
