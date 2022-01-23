@@ -1,7 +1,7 @@
 .Navbar_component
 {
     
-    min-height:8vh;
+    min-height:3vh;
     width:100%;
     display:flex;
 }
@@ -13,8 +13,6 @@
 }
 .searchbar
 {
-
-display: flex;
 width:50%;
 background-color: rgb(25, 81, 235);
 }
@@ -45,7 +43,7 @@ font-size: larger;
 }
 .address_part
 {
-    margin: 12px 0px;
+    margin: 14px 9px;
 }
 
 select
@@ -54,12 +52,13 @@ select
 }
 input
 {
- width:70%;
+ width:100%;
+ padding:2% 2%;
 }
 button
 {
   background-color: rgb(226, 136, 17);  
-  padding:15px; 
+  padding:11px; 
 }
 .fal
 {
@@ -69,4 +68,17 @@ font-size: larger;
 .address_part
 {
     width:50%;
+}
+.part
+{
+ display: flex;
+ margin: 2%;  
+}
+select
+{
+padding: 17% 2%;    
+}
+.dropdown-second
+{
+  width:79%;  
 }

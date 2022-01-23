@@ -22,24 +22,28 @@ class Navbar extends Component
                              
                          
                  </div>
-                    
-                        <div className="searchbar">
-                               <div className="dropdown-first">
-                                  <select>
-                                       <option value = "All"> All </option>
-                                       <option value = "All"> Bags </option>
-                                       <option value = "All"> Toys  </option>
-                                       <option value = "All">  Caps </option>
-                                       <option value = "All"> Clothes </option>
-                                  </select>
-                                </div>
-                               <div className="dropdown-second">
-                                   <input type = "search" />
-                               </div>
-                               <div className="dropdown-third">
-                                 <button> <i class="far fa-search"></i></button>
-                               </div>
-                        </div>
+                     
+                      <div className="searchbar">
+                            <div className="part">
+                                       <div className="dropdown-first">
+                                             <select>
+                                                <option value = "All"> All </option>
+                                                <option value = "All"> Bags </option>
+                                                <option value = "All"> Toys  </option>
+                                                <option value = "All">  Caps </option>
+                                                <option value = "All"> Clothes </option>
+                                             </select>
+                                         </div>
+                                        <div className="dropdown-second">
+                                            <input type = "search" />
+                                        </div>
+                                        <div className="dropdown-third">
+                                            <button> <i class="far fa-search"></i></button>
+                                        </div>
+                            </div>
+                      </div>
+
+
                        <div className="third-part">
                                 <div className="third-one">
                                     <span> Hello , Sign In </span>
