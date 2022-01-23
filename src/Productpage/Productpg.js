@@ -10,7 +10,13 @@ const Productpg = () =>
                 <Leftpanel />
             </div> 
             <div className = "right_product"  style =  {{width:'70%',backgroundColor:'lightblue'}}>
-                <Rightpanel />
+               <div className="main_rightpanel"  style = {{display:'flex',flexDirection:'row',flexWrap:'wrap'}}>
+                  <Rightpanel />
+                  <Rightpanel />
+                  <Rightpanel />
+                  <Rightpanel />
+               </div>
+            
             </div> 
        </div>
   )
