@@ -56,7 +56,7 @@ class Navbar extends Component
                                 </div>
                                 <div className="third-last">
                                 <i class="fas fa-shopping-cart"></i>
-                                  <div> Cart  </div>
+                                  <div style = {{fontSize:'12px',fontWeight:'bolder'}}> Cart  </div>
                                 </div>
                       </div>
              </div>
