@@ -44,18 +44,19 @@ class Navbar extends Component
                       </div>
 
 
-                       <div className="third-part">
+                       <div className="third-part" >
                                 <div className="third-one">
-                                    <span> Hello , Sign In </span>
-                                    <span>Accounts & List  </span>
+                                      <div style = {{fontSize:'12px',fontWeight:'bolder'}}>
+                                          Hello , Sign In </div>
+                                      <div style = {{fontSize:'16px',fontWeight:'bolder'}}> Accounts & List  </div>
                                 </div>
                                 <div className="third-two">
-                                    <span>  Return   </span>
-                                    <span> & Order  </span>
+                                    <div  style = {{fontSize:'12px',fontWeight:'bolder'}}>  Return   </div>
+                                    <div  style = {{fontSize:'16px',fontWeight:'bolder'}}> & Order  </div>
                                 </div>
                                 <div className="third-last">
                                 <i class="fas fa-shopping-cart"></i>
-                                <span> Cart  </span>
+                                  <div> Cart  </div>
                                 </div>
                       </div>
              </div>

@@ -82,3 +82,17 @@ padding: 17% 2%;
 {
   width:79%;  
 }
+.third-part
+{
+  display: flex;
+}
+.third-one
+{
+margin: 3%;
+color:white;
+}
+.third-two
+{
+  color:white;  
+  margin: 3%;
+}
