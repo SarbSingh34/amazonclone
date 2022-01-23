@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const Rightpanel = (props) => 
 {
+
   return (
       <>
        <div className= "main_right">
