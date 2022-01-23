@@ -110,7 +110,7 @@ color:white;
 .footer_text
 {
     font-weight: 500;
-    font-size:larger;
+    font-size:medium;
     color:rgb(255, 255, 255);
-    padding: 4px;
+    padding: 4px 15px;
 }
