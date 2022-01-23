@@ -1,28 +1,18 @@
 import React from 'react';
-
-const Rightpanel = (props) => 
+import Productlist from  "./Productlist";
+const Rightpanel = () => 
 {
-
   return (
       <>
-       <div className= "main_right">
-            <div className="phone_card" 
-                  style = {{backgroundColor:'brown'}}>
-                  <div className="product_image" style = {{width:'100%'}}>
-                        <img src = {props.img} 
-                    style = {{width:'45%',borderRadius:'24px',margin:'3% 3%'}}/>
-                  </div>
-                  <div className="product_name"  style = {{fontSize:'24px',fontWeight:'bolder'}}>
-                        {/* New Apple iPhone 11  */} {props.name}
-                  </div>
-                  <div className="product_rating"  style = {{fontSize:'21px',fontWeight:'bolder'}}>
-                       {/* 5 Star  */}  {props.rating}
-                  </div>
-                  <div className="product_price"  style = {{fontSize:'21px',fontWeight:'bolder'}}>
-                        {/* Price: 50,999 */}  {props.price}
-                  </div>
-           </div>
-        </div>
+        <Productlist  rating = "11111111" price = "9999999" 
+                  name = "iphone 13"     img  = "/images/Img1.webp"/>
+        <Productlist   rating = "22222222" price = "8888888" 
+                  name = "iphone 12"    img  = "/images/Img7.webp" />
+        <Productlist  rating = "33333333" price = "7777777"
+                   name = "iphone 11"   img  = "/images/Img3.webp"  />
+        <Productlist  rating = "44444444" price = "6666666"
+                   name = "iphone 10"   img  = "/images/Img4.webp" />
+
       </>
   )
 };
