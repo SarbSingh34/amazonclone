@@ -1,30 +1,15 @@
-import React , { useState , useEffect }from 'react';
+import React , { useState , useEffect } from 'react';
 import Productlist from  "./Productlist";
+
 const Rightpanel = () => 
 {
-  const[listofproduct,setlistofproduct] = useState([]);
-
-   useEffect(() =>
-   {
-        let list = 
-        [
-          { rating : "11111111" ,   price : "9999999" ,    name : "iphone 13"  },
-          { rating : "2222222"  ,   price : "88888" ,      name : "iphone 12"  },
-          { rating : "3333333"  ,   price  : "777777" ,    name : "iphone 11"  },
-          { rating : "44444444" ,   price : "6666666666" , name : "iphone 10"  }
-        ]
-          //  setlistofproduct(list);
-          // console.log(listofproduct);
-   });
-
   return (
           <div className='inside'>
-        {
-            listofproduct.map((item) =>
-              {
-               <Productlist rating = {item.rating} price = {item.price} name = {item.name} />
-              })
-        }
+            <Productlist  rating = "1111111" price = "999999" name = "iPhone 13"  img = "images/Img2.webp"/>
+            <Productlist  rating = "1111111" price = "999999" name = "iPhone 12"  img = "images/Img9.webp" />
+            <Productlist  rating = "1111111" price = "999999" name = "iPhone 11"  img = "images/Img4.webp"/>
+            <Productlist  rating = "1111111" price = "999999" name = "iPhone 10" img = "images/Img5.webp" />
+            <Productlist  rating = "1111111" price = "999999" name = "iPhone 7" img = "images/Img7.webp" />
          </div>
   )
 };
