@@ -1,4 +1,5 @@
 import React from 'react';
+import Rightpanel from './Rightpanel';
 
 const Productlist = (props) =>
  {
