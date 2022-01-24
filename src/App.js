@@ -5,18 +5,35 @@ import  Mainpage from "./Components/Mainpage";
 import Productpg from "./Productpage/Productpg";
 import Placeorder from "./Placeorderpage/Placeorder";
 import Checkout from "./Placeorderpage/Checkout";
+import  { BrowserRouter as Router, Route,Routes  } from "react-router-dom";
 
 
 function App() {
   return (
-   <>
-           <Navbar />
-          {/* <Mainpage/> */}
-          {/* <Productpg /> */}
-          {/* <Placeorder /> */}
-          <Checkout />
-   </>
+      <Router>
+             <div>
+             <Navbar />
+        <Routes>
+            <Route path="/display" element={      <Productpg />}></Route>
+            <Route path="/order" element={    <Placeorder />}></Route>
+            <Route path="/checkout" element={  <Checkout /> }></Route>
+            <Route path="" element={    <Mainpage/>   }></Route>
+        </Routes>
+      </div>
+      </Router>
   );
 }
+
+// function App() {
+//   return (
+//    <>
+//            <Navbar />
+//           {/* <Mainpage/> */}
+//           {/* <Productpg /> */}
+//           {/* <Placeorder /> */}
+//           <Checkout />
+//    </>
+//   );
+// }
 
 export default App;
