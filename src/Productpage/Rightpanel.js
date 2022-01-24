@@ -24,7 +24,8 @@ const Rightpanel = () =>
         {
             listofproduct.map((item) =>
               {
-                 return   <Productlist rating = {item.rating} price = {item.price} name = {item.name} image = {item.image}/>
+                //  return   <Productlist rating = {item.rating} price = {item.price} name = {item.name} image = {item.image}/>
+                return   <Productlist  definition = {item} />
               })
         }
          </>
