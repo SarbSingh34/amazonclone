@@ -3,13 +3,28 @@ import Productlist from  "./Productlist";
 
 const Rightpanel = () => 
 {
+  const[listofproduct,setlistofproduct] = useState([]);
+
+   useEffect(() =>
+   {
+           let list = 
+        [
+          { rating : "8888888"  ,   price : "9999999" , name : "iphone 13" , image : "images/Img6.webp" },
+          { rating : "2222222"  ,   price : "8888888" , name : "iphone 12" , image : "images/Img5.webp" },
+          { rating : "3333333"  ,   price : "7777767" , name : "iphone 11" , image : "images/Img3.webp" },
+          { rating : "44444444" ,   price : "6666666" , name : "iphone 10" , image : "images/Img9.webp" }
+        ]
+           setlistofproduct(list);
+   },[]);
+
   return (
           <div className='inside'>
-            <Productlist  rating = "1111111" price = "999999" name = "iPhone 13"  img = "images/Img2.webp"/>
-            <Productlist  rating = "1111111" price = "999999" name = "iPhone 12"  img = "images/Img9.webp" />
-            <Productlist  rating = "1111111" price = "999999" name = "iPhone 11"  img = "images/Img4.webp"/>
-            <Productlist  rating = "1111111" price = "999999" name = "iPhone 10" img = "images/Img5.webp" />
-            <Productlist  rating = "1111111" price = "999999" name = "iPhone 7" img = "images/Img7.webp" />
+        {
+            listofproduct.map((item) =>
+              {
+                 return   <Productlist rating = {item.rating} price = {item.price} name = {item.name} image = {item.image}/>
+              })
+        }
          </div>
   )
 };

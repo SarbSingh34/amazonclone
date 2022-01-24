@@ -9,7 +9,7 @@ const Productlist = (props) =>
             <div className="phone_card" 
                   style = {{backgroundColor:'brown'}}>
                   <div className="product_image" style = {{width:'100%'}}>
-                        <img src = {props.img} 
+                        <img src = {props.image} 
                     style = {{width:'45%',borderRadius:'24px',margin:'3% 3%'}}/>
                   </div>
                   <div className="product_name"  style = {{fontSize:'24px',fontWeight:'bolder'}}>
