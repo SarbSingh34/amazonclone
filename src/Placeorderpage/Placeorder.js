@@ -9,7 +9,7 @@ const Placeorder = () => {
     let list = [
       {
         "id": "11111111",
-        "name" : "iPhone 11",
+          name : "iPhone 11",
         "rating" : "99999" ,
         "review": "10000",
         "emi": "24000",
