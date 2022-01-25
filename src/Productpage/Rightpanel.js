@@ -1,5 +1,6 @@
 import React , { useState , useEffect } from 'react';
 import Productlist from  "./Productlist";
+import  { Link } from "react-router-dom";
 
 const Rightpanel = () => 
 {
@@ -20,16 +21,20 @@ const Rightpanel = () =>
    },[]);
 
   return (
-          <>
-        {
-            listofproduct.map((item) =>
-              {
-                //  return   <Productlist rating = {item.rating} price = {item.price} name = {item.name} image = {item.image}/>
-                return   <Productlist  definition = {item} />
-              })
-        }
-         </>
-  )
-};
+      <div className = "content"> 
+          {
+              listofproduct.map((item) =>
+                  (
+                    /* return   <Productlist rating = {item.rating} price = {item.price} name = {item.name} image = {item.image}/> */
+                          <Link to = "/order"> 
+                             return    <Productlist  definition = {item} />
+                          </Link>
+               
+                  ))
+          }
+      </div>
+    
+  );
+}
 
 export default Rightpanel;

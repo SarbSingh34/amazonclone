@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from  "react-router-dom";
 
 const Placeorder = () => 
 {
@@ -19,7 +20,10 @@ const Placeorder = () =>
              </div>
              <div className="third_part" style= {{width:'20%', backgroundColor:'lightblue'}}>
                     <span> Content  </span>
-                    <button type ="submit" > Add to Cart </button>
+                    <Link to ="/checkout">
+                        <button type ="submit" > Add to Cart </button>
+                    </Link>
+                  
                     <button type ="submit">  Buy Now   </button>
              </div>
          </div>
