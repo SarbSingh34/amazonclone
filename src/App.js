@@ -13,8 +13,8 @@ function App() {
              <div>
              <Navbar />
                   <Routes>
-                        <Route  path ="/display"    element={ <Productpg />}>  </Route>
-                        <Route  path ="/order"      element={ <Placeorder />}> </Route>
+                        <Route  path ="/display"     element={ <Productpg />}>  </Route>
+                        <Route  path ="/order/:id"   element={ <Placeorder />}> </Route>
                         <Route  path ="/checkout"   element={  <Checkout /> }>  </Route>
                         <Route  path =""            element={  <Mainpage/>}>   </Route>
                   </Routes>
