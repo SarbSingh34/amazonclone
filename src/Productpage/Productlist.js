@@ -5,7 +5,6 @@ const Productlist = (props) =>
  {
   return (
    <>
-    
             <div className="phone_card" style= {{width:'29%'}}>
                   <div className="product_image" style = {{width:'100%'}}>
                         <img src = {props.definition.image} 
