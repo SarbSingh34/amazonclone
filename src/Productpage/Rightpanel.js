@@ -10,12 +10,12 @@ const Rightpanel = () =>
    {
            let list = 
         [
-          { rating : "8888888"  ,   price : "9999999" , name : "iphone 13" , image : "images/Img6.webp" },
-          { rating : "2222222"  ,   price : "8888888" , name : "iphone 12" , image : "images/Img5.webp" },
-          { rating : "3333333"  ,   price : "7777767" , name : "iphone 11" , image : "images/Img3.webp" },
-          { rating : "4444444"  ,   price : "6666666" , name : "iphone 10" , image : "images/Img9.webp" },
-          { rating : "5555555"  ,   price : "5555555" , name :  "iphone 8"  , image : "images/Img4.webp" },
-          { rating : "6666666"  ,   price : "4444444" , name :  "iphone 7"  , image : "images/Img7.webp" },
+          {   id : 1111111   ,  rating : "8888888"  ,   price : "9999999" , name : "iphone 13" , image : "images/Img6.webp" },
+          {   id : 22222222  ,  rating : "2222222"  ,   price : "8888888" , name : "iphone 12" , image : "images/Img5.webp" },
+          {   id : 33333333  ,  rating : "3333333"  ,   price : "7777767" , name : "iphone 11" , image : "images/Img3.webp" },
+          {   id : 4444444  ,   rating : "4444444"  ,   price : "6666666" , name : "iphone 10" , image : "images/Img9.webp" },
+          {   id : 5555555  ,  rating : "5555555"  ,   price : "5555555" , name :  "iphone 8"  , image : "images/Img4.webp" },
+          {   id : 6666666  ,  rating : "6666666"  ,   price : "4444444" , name :  "iphone 7"  , image : "images/Img7.webp" },
         ] 
            setlistofproduct(list);
    },[]);
@@ -26,7 +26,7 @@ const Rightpanel = () =>
               listofproduct.map((item) =>
                   (
                     /* return   <Productlist rating = {item.rating} price = {item.price} name = {item.name} image = {item.image}/> */
-                          <Link to = "/order"> 
+                          <Link to = {`/order/` + item.id} >
                              return    <Productlist  definition = {item} />
                           </Link>
                
