@@ -104,11 +104,12 @@ const Placeorder = () => {
       },
     ];
 
-    let item = list.filter((item) => {
+    let item = list.filter((item) => 
+    {
       if (item.id == id) return item;
     });
          console.log(item);
-         setproductdetails(item[0]);
+         setproductdetails(list[0]);
   }, []);
 
   return (
@@ -124,7 +125,7 @@ const Placeorder = () => {
           className="second_part"
           style={{ width: "40%", backgroundColor: "blue" }}>
           <div className="second_header">
-            <span> {productdetails.name} </span>
+            <span>  4cccc4444  </span>
             <span> 35,990 ratings | 1000+ answered questions </span>
           </div>
           <div className="second_main">
