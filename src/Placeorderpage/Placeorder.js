@@ -9,99 +9,99 @@ const Placeorder = () =>
   useEffect(() => {
     let list = [
       {
-        "id": "11111111",
+         "id": "11111111",
         "name" : "New Apple iPhone 11",
         "rating" : "555555" ,
         "review": "10000",
         "emi": "2401",
         "delivery ": "Wednesday 18, Aug",
-        "price": "50999",
+        "price": "60999",
         "status ": "In Stock",
         "soldby": "Drshitaa Electronics",
         "about": [
           "About this Camera: Sony IMX 766 50MP+8MP+2MP AI Triple Camera with 4K@30FPS|1080p video at 30/60 fps | 32MP Front camera with 1080p video at 30/60 fps | Super Slow Motion: 1080p video at 120 fps, 720p video at 240 fps | Time-Lapse: 1080p 120fps;720p 240fps Chipset: MediaTek Dimensity 1200-AI - The octa-core Dimensity 1200-AI features one of the fastest smartphone CPUs ever:",
         ],
-        image: "images/Img6.webp",
+        "image": "/images/iPhone 13.jpg",
       },
       {
         "id": "2222222",
-        "name" : "iPhone 10",
+        "name" : " New Apple iPhone 10",
         "rating" : "99999" ,
-        "review": "10000",
-        "emi": "24000",
-        "delivery ": "Wed 18, Aug",
-        "price": "55555",
+        "review": "20000",
+        "emi": "2402",
+        "delivery ": "Wednesday 19, Aug",
+        "price": "50999",
         "status ": "In Stock",
-        "soldby": "Drshitaa",
+        "soldby": "Jenny Electronics",
         "about": [
           "About this Camera: Sony IMX 766 50MP+8MP+2MP AI Triple Camera with 4K@30FPS|1080p video at 30/60 fps | 32MP Front camera with 1080p video at 30/60 fps | Super Slow Motion: 1080p video at 120 fps, 720p video at 240 fps | Time-Lapse: 1080p 120fps;720p 240fps Chipset: MediaTek Dimensity 1200-AI - The octa-core Dimensity 1200-AI features one of the fastest smartphone CPUs ever:",
         ],
 
-        image: "images/Img6.webp",
+        "image" : "/images/iPhone  11.jpg",
       },
       {
         "id": "33333333",
-        "name" : "iPhone 9",
+        "name" : "New Apple  iPhone 9",
         "rating" : "99999" ,
-        "review": "10000",
-        "emi": "24000",
-        "delivery ": "Wed 18, Aug",
-        "price": "55555",
+        "review": "30000",
+        "emi": "2403",
+        "delivery ": "Wednesday 19, Aug",
+        "price": "70999",
         "status ": "In Stock",
-        "soldby": "Drshitaa",
+        "soldby": "Amrita Electronics",
         "about": [
           "About this Camera: Sony IMX 766 50MP+8MP+2MP AI Triple Camera with 4K@30FPS|1080p video at 30/60 fps | 32MP Front camera with 1080p video at 30/60 fps | Super Slow Motion: 1080p video at 120 fps, 720p video at 240 fps | Time-Lapse: 1080p 120fps;720p 240fps Chipset: MediaTek Dimensity 1200-AI - The octa-core Dimensity 1200-AI features one of the fastest smartphone CPUs ever:",
         ],
 
-        image: "images/Img6.webp",
+        "image": "/images/iPhone 10.png",
       },
       {
         "id": "44444444",
-        "name" : "iPhone 8",
+        "name" : " New Apple  iPhone 8",
         "rating" : "99999" ,
-        "review": "10000",
-        "emi": "24000",
-        "delivery ": "Wed 18, Aug",
-        "price": "55555",
+        "review": "40000",
+        "emi": "2404",
+        "delivery ": "Wednesday 19, Aug",
+        "price": "40999",
         "status ": "In Stock",
-        "soldby": "Drshitaa",
+        "soldby": "Suman Electronics",
         "about": [
           "About this Camera: Sony IMX 766 50MP+8MP+2MP AI Triple Camera with 4K@30FPS|1080p video at 30/60 fps | 32MP Front camera with 1080p video at 30/60 fps | Super Slow Motion: 1080p video at 120 fps, 720p video at 240 fps | Time-Lapse: 1080p 120fps;720p 240fps Chipset: MediaTek Dimensity 1200-AI - The octa-core Dimensity 1200-AI features one of the fastest smartphone CPUs ever:",
         ],
 
-        image: "images/Img6.webp",
+         "image" : "/images/iPhone 10.png",
       },
       {
         "id": "5555555",
-        "name" : "iPhone 7",
+        "name" : " New Apple iPhone 7",
         "rating" : "99999" ,
-        "review": "10000",
-        "emi": "24000",
-        "delivery ": "Wed 18, Aug",
-        "price": "55555",
+        "review": "50000",
+        "emi": "2405",
+        "delivery ": "Wednesday 19, Aug",
+        "price": "50999",
         "status ": "In Stock",
-        "soldby": "Drshitaa",
+        "soldby": "Deoll Electronics",
         "about": [
           "About this Camera: Sony IMX 766 50MP+8MP+2MP AI Triple Camera with 4K@30FPS|1080p video at 30/60 fps | 32MP Front camera with 1080p video at 30/60 fps | Super Slow Motion: 1080p video at 120 fps, 720p video at 240 fps | Time-Lapse: 1080p 120fps;720p 240fps Chipset: MediaTek Dimensity 1200-AI - The octa-core Dimensity 1200-AI features one of the fastest smartphone CPUs ever:",
         ],
 
-        image: "images/Img6.webp",
+        "image" : "/images/iPhone 8.png",
       },
       {
         "id": "666666",
-        "name" : "iPhone 6",
+        "name" : "New Apple iPhone 6",
         "rating" : "99999" ,
-        "review": "10000",
-        "emi": "24000",
-        "delivery ": "Wed 18, Aug",
-        "price": "55555",
+        "review": "60000",
+        "emi": "2406",
+        "delivery ": "Wednesday 19, Aug",
+        "price": "609999",
         "status ": "In Stock",
-        "soldby": "Drshitaa",
+        "soldby": "Simmu Electronics",
         "about": [
           "About this Camera: Sony IMX 766 50MP+8MP+2MP AI Triple Camera with 4K@30FPS|1080p video at 30/60 fps | 32MP Front camera with 1080p video at 30/60 fps | Super Slow Motion: 1080p video at 120 fps, 720p video at 240 fps | Time-Lapse: 1080p 120fps;720p 240fps Chipset: MediaTek Dimensity 1200-AI - The octa-core Dimensity 1200-AI features one of the fastest smartphone CPUs ever:",
         ],
 
-        image: "images/Img6.webp",
+        "image": "/images/iPhone 7.jpg",
       },
     ];
 
@@ -119,7 +119,7 @@ const Placeorder = () =>
       <div className="placeorder_pg" style={{ width: "100%", display: "flex" }}>
         <div className="first_part"  style={{ width: "40%" }}>
           <img
-            src="/images/Img6.webp"
+            src={productdetails.image}
             style={{ width: "55%", margin: "5% 22%" }}
           />
         </div>
