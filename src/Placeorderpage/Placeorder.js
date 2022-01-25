@@ -10,7 +10,7 @@ const Placeorder = () =>
     let list = [
       {
          "id": "11111111",
-        "name" : "New Apple iPhone 11",
+        "name" : "New Apple iPhone 13",
         "rating" : "555555" ,
         "review": "10000",
         "emi": "2401",
@@ -19,13 +19,13 @@ const Placeorder = () =>
         "status ": "In Stock",
         "soldby": "Drshitaa Electronics",
         "about": [
-          "About this Camera: Sony IMX 766 50MP+8MP+2MP AI Triple Camera with 4K@30FPS|1080p video at 30/60 fps | 32MP Front camera with 1080p video at 30/60 fps | Super Slow Motion: 1080p video at 120 fps, 720p video at 240 fps | Time-Lapse: 1080p 120fps;720p 240fps Chipset: MediaTek Dimensity 1200-AI - The octa-core Dimensity 1200-AI features one of the fastest smartphone CPUs ever:",
+          "Aaaaaaaaaaaaaaa",
         ],
         "image": "/images/iPhone 13.jpg",
       },
       {
         "id": "2222222",
-        "name" : " New Apple iPhone 10",
+        "name" : " New Apple iPhone 12",
         "rating" : "99999" ,
         "review": "20000",
         "emi": "2402",
@@ -34,14 +34,14 @@ const Placeorder = () =>
         "status ": "In Stock",
         "soldby": "Jenny Electronics",
         "about": [
-          "About this Camera: Sony IMX 766 50MP+8MP+2MP AI Triple Camera with 4K@30FPS|1080p video at 30/60 fps | 32MP Front camera with 1080p video at 30/60 fps | Super Slow Motion: 1080p video at 120 fps, 720p video at 240 fps | Time-Lapse: 1080p 120fps;720p 240fps Chipset: MediaTek Dimensity 1200-AI - The octa-core Dimensity 1200-AI features one of the fastest smartphone CPUs ever:",
+          "Bbbbbbbbbbbbbbbbbbbbbbb",
         ],
 
-        "image" : "/images/iPhone  11.jpg",
+        "image" : "/images/iPhone 12.jpg",
       },
       {
         "id": "33333333",
-        "name" : "New Apple  iPhone 9",
+        "name" : "New Apple  iPhone 11",
         "rating" : "99999" ,
         "review": "30000",
         "emi": "2403",
@@ -50,14 +50,14 @@ const Placeorder = () =>
         "status ": "In Stock",
         "soldby": "Amrita Electronics",
         "about": [
-          "About this Camera: Sony IMX 766 50MP+8MP+2MP AI Triple Camera with 4K@30FPS|1080p video at 30/60 fps | 32MP Front camera with 1080p video at 30/60 fps | Super Slow Motion: 1080p video at 120 fps, 720p video at 240 fps | Time-Lapse: 1080p 120fps;720p 240fps Chipset: MediaTek Dimensity 1200-AI - The octa-core Dimensity 1200-AI features one of the fastest smartphone CPUs ever:",
+          "Cccccccccccccccc",
         ],
 
-        "image": "/images/iPhone 10.png",
+        "image": "/images/iPhone  11.jpg",
       },
       {
         "id": "44444444",
-        "name" : " New Apple  iPhone 8",
+        "name" : " New Apple  iPhone 10",
         "rating" : "99999" ,
         "review": "40000",
         "emi": "2404",
@@ -66,14 +66,14 @@ const Placeorder = () =>
         "status ": "In Stock",
         "soldby": "Suman Electronics",
         "about": [
-          "About this Camera: Sony IMX 766 50MP+8MP+2MP AI Triple Camera with 4K@30FPS|1080p video at 30/60 fps | 32MP Front camera with 1080p video at 30/60 fps | Super Slow Motion: 1080p video at 120 fps, 720p video at 240 fps | Time-Lapse: 1080p 120fps;720p 240fps Chipset: MediaTek Dimensity 1200-AI - The octa-core Dimensity 1200-AI features one of the fastest smartphone CPUs ever:",
+          "Ddddddddddddddddd",
         ],
 
          "image" : "/images/iPhone 10.png",
       },
       {
         "id": "5555555",
-        "name" : " New Apple iPhone 7",
+        "name" : " New Apple iPhone 8",
         "rating" : "99999" ,
         "review": "50000",
         "emi": "2405",
@@ -82,14 +82,14 @@ const Placeorder = () =>
         "status ": "In Stock",
         "soldby": "Deoll Electronics",
         "about": [
-          "About this Camera: Sony IMX 766 50MP+8MP+2MP AI Triple Camera with 4K@30FPS|1080p video at 30/60 fps | 32MP Front camera with 1080p video at 30/60 fps | Super Slow Motion: 1080p video at 120 fps, 720p video at 240 fps | Time-Lapse: 1080p 120fps;720p 240fps Chipset: MediaTek Dimensity 1200-AI - The octa-core Dimensity 1200-AI features one of the fastest smartphone CPUs ever:",
+          "Eeeeeeeeeeeeeeee",
         ],
 
         "image" : "/images/iPhone 8.png",
       },
       {
         "id": "666666",
-        "name" : "New Apple iPhone 6",
+        "name" : "New Apple iPhone 7",
         "rating" : "99999" ,
         "review": "60000",
         "emi": "2406",
@@ -98,7 +98,8 @@ const Placeorder = () =>
         "status ": "In Stock",
         "soldby": "Simmu Electronics",
         "about": [
-          "About this Camera: Sony IMX 766 50MP+8MP+2MP AI Triple Camera with 4K@30FPS|1080p video at 30/60 fps | 32MP Front camera with 1080p video at 30/60 fps | Super Slow Motion: 1080p video at 120 fps, 720p video at 240 fps | Time-Lapse: 1080p 120fps;720p 240fps Chipset: MediaTek Dimensity 1200-AI - The octa-core Dimensity 1200-AI features one of the fastest smartphone CPUs ever:",
+          "Fffffffffffffffffffff
+          ",
         ],
 
         "image": "/images/iPhone 7.jpg",
