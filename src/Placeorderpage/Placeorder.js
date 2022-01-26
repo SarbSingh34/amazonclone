@@ -12,9 +12,9 @@ const Placeorder = () =>
          "id": "11111111",
         "name" : "New Apple iPhone 13",
         "rating" : "555555" ,
-        "image": "/images/iPhone 13.jpg",
         "review": "10000",
         "emi": "2401",
+        "image": "/images/iPhone 13.jpg",
         "delivery ": "Wednesday 18, Aug",
         "price": "60999",
         "status ": "In Stock",
@@ -27,9 +27,9 @@ const Placeorder = () =>
         "id": "2222222",
         "name" : " New Apple iPhone 12",
         "rating" : "99999" ,
-        "image" : "images/iPhone 12.jpg",
         "review": "20000",
         "emi": "2402",
+        "image" : "/images/iPhone 12.jpg",
         "delivery ": "Wednesday 19, Aug",
         "price": "50999",
         "status ": "In Stock",
@@ -40,7 +40,7 @@ const Placeorder = () =>
       },
       {
         "id": "33333333",
-        "name" : "New Apple  iPhone 11",
+        "name" : "New Apple  iPhone 8 ",
         "rating" : "99999" ,
         "review": "30000",
         "emi": "2403",
@@ -129,10 +129,10 @@ const Placeorder = () =>
               </div>
               <div className="second_main">
 
-                        Price :- {productdetails.price}    <br></br>
-                      Free delivery :- {productdetails.delivery}     <br></br> 
-                        EMI starts at  :- {productdetails.delivery}  No Cost EMI available  <br></br>
-                          {productdetails.status}  
+                              Price :- {productdetails.price}    <br></br>
+                            Free delivery :- {productdetails.delivery}     <br></br> 
+                          EMI starts at  :- {productdetails.delivery}  No Cost EMI available  <br></br>
+                           {productdetails.status}  
                           Sold by  {productdetails.soldby} and Fulfilled by Amazon   <br></br>
                       {productdetails.about}    
               </div>
