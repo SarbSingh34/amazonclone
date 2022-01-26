@@ -1,17 +1,17 @@
-import react from "react";
+import eact from "react";
 
 function Checkoutitems(props)
 {
   return (
     <div>
           <div className = "main_checkitem">
-                <div style = {{}}>
-                    <img style =  {{width:'12%'}}src = "/images/Img5.webp" />
+                <div>
+                    <img style =  {{width:'12%'}}  src = {props.definition.img} />
                 </div>
                 <div>
-                    <span > New Apple iPhone 11  </span>
-                    <span> 50,999  </span>
-                    <span>  In Stock  </span>
+                    <span > {props.definition.name}     </span>
+                    <span> {props.definition.price}    </span>
+                    <span>  {props.definition.status}  </span>
                 </div>
           </div>
    </div>

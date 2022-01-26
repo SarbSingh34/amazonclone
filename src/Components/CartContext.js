@@ -5,10 +5,13 @@ export const CartContext = createContext();
 class CartContextProvider extends Component {
     constructor(props) {
         super(props);
+        let existingCart = localStorage.getItem('mycart') !=  undefined ? JSON.parse(localStorage.getItem('mycart')) : []; 
+        let cardAmount = existingCart.length;
+
         this.state = 
         {
-             item : [],
-             size : 0,
+             item : existingCart,
+             size : cardAmount,
              increment: (value) =>
              {
                 let itemList = this.state.item;
@@ -16,7 +19,16 @@ class CartContextProvider extends Component {
 
                 this.setState( { item: itemList } );
                 this.setState( { size: this.state.item.length} );
+
+                this.state.saveToLocalCache();
+
              },
+               saveToLocalCache: () =>
+               {
+                   localStorage.setItem('mycart',JSON.stringify(this.state.item))
+               }
+  
+
         }
     }
    
