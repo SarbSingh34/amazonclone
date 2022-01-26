@@ -1,13 +1,18 @@
 import React, {Component} from "react";
 import Navbarstyle from "./Navbarstyle.css";
+import {CartContext} from "./CartContext";
+
 
 class Navbar extends Component 
 {
+     static contextType = CartContext;
+
     constructor(props) {
         super(props);
+        this.state = { }
     }
-    state = {  }
-    render() { 
+    render() {
+        let {item,size,increment} = this.context; 
         return ( 
           <>
              {/* Main Navbar component */}
@@ -55,7 +60,7 @@ class Navbar extends Component
                                     <div className="third-last">
                                         
                                     <span  style =  {{fontSize:'26px',fontWeight:'bolder'}} >  <i class="fas fa-shopping-cart"></i>   </span>   
-                                    <span  style  =  {{fontSize:'20px',fontWeight:'bolder'}}>   Cart  </span>
+                                    <span  style  =  {{fontSize:'20px',fontWeight:'bolder'}}>  {size} Cart  </span>
                                     </div>
                           </div>
                </div>
