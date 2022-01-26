@@ -12,21 +12,22 @@ const Placeorder = () =>
          "id": "11111111",
         "name" : "New Apple iPhone 13",
         "rating" : "555555" ,
+        "image": "/images/iPhone 13.jpg",
         "review": "10000",
         "emi": "2401",
         "delivery ": "Wednesday 18, Aug",
         "price": "60999",
         "status ": "In Stock",
         "soldby": "Drshitaa Electronics",
-        "about": [
-          "Aaaaaaaaaaaaaaa",
-        ],
-        "image": "/images/iPhone 13.jpg",
+        // "about": [
+        //   "Aaaaaaaaaaaaaaa",
+        // ],
       },
       {
         "id": "2222222",
         "name" : " New Apple iPhone 12",
         "rating" : "99999" ,
+        "image" : "images/iPhone 12.jpg",
         "review": "20000",
         "emi": "2402",
         "delivery ": "Wednesday 19, Aug",
@@ -36,8 +37,6 @@ const Placeorder = () =>
         "about": [
           "Bbbbbbbbbbbbbbbbbbbbbbb",
         ],
-
-        "image" : "/images/iPhone 12.jpg",
       },
       {
         "id": "33333333",
@@ -45,15 +44,14 @@ const Placeorder = () =>
         "rating" : "99999" ,
         "review": "30000",
         "emi": "2403",
+        "image": "/images/iPhone  11.jpg",
         "delivery ": "Wednesday 19, Aug",
         "price": "70999",
         "status ": "In Stock",
         "soldby": "Amrita Electronics",
         "about": [
           "Cccccccccccccccc",
-        ],
-
-        "image": "/images/iPhone  11.jpg",
+        ],  
       },
       {
         "id": "44444444",
@@ -61,15 +59,14 @@ const Placeorder = () =>
         "rating" : "99999" ,
         "review": "40000",
         "emi": "2404",
+        "image" : "/images/iPhone 10.png",
         "delivery ": "Wednesday 19, Aug",
         "price": "40999",
         "status ": "In Stock",
         "soldby": "Suman Electronics",
         "about": [
           "Ddddddddddddddddd",
-        ],
-
-         "image" : "/images/iPhone 10.png",
+        ], 
       },
       {
         "id": "5555555",
@@ -77,6 +74,7 @@ const Placeorder = () =>
         "rating" : "99999" ,
         "review": "50000",
         "emi": "2405",
+        "image" : "/images/iPhone 8.png",
         "delivery ": "Wednesday 19, Aug",
         "price": "50999",
         "status ": "In Stock",
@@ -84,8 +82,6 @@ const Placeorder = () =>
         "about": [
           "Eeeeeeeeeeeeeeee",
         ],
-
-        "image" : "/images/iPhone 8.png",
       },
       {
         "id": "666666",
@@ -93,16 +89,14 @@ const Placeorder = () =>
         "rating" : "99999" ,
         "review": "60000",
         "emi": "2406",
+        "image": "/images/iPhone 7.jpg",
         "delivery ": "Wednesday 19, Aug",
         "price": "609999",
         "status ": "In Stock",
         "soldby": "Simmu Electronics",
         "about": [
-          "Fffffffffffffffffffff
-          ",
+          "Fffffffffff",
         ],
-
-        "image": "/images/iPhone 7.jpg",
       },
     ];
 
@@ -111,49 +105,47 @@ const Placeorder = () =>
       if (item.id == id) 
       return item;
     });
-             console.log(list[0].name);
-             setproductdetails(list[0]); 
+          // console.log(list[1]);
+            console.log(item[0].name);
+          // setproductdetails(item);
+            //  console.log(list[0].name);
+             setproductdetails(item[0]); 
   }, []);
 
   return (
     <>
       <div className="placeorder_pg" style={{ width: "100%", display: "flex" }}>
-        <div className="first_part"  style={{ width: "40%" }}>
-          <img
-            src={productdetails.image}
-            style={{ width: "55%", margin: "5% 22%" }}
-          />
-        </div>
-        <div
-          className="second_part"
-          style={{ width: "40%", backgroundColor: "lightblue" }}>
-          <div className="second_header">
-          <ul style = {{listStyleType:'none'}}>
-            <li style = {{color:'black',fontWeight:'bolder'}}>  {productdetails.name}  </li>
-            <li> {productdetails.rating} 35,990 ratings | 1000+ answered questions   </li>
-          </ul>
-          </div>
-          <div className="second_main">
-            <ul style = {{listStyleType:'none'}}>
-              <li>   Price :- {productdetails.price}    </li>
-             <li>   Free delivery :- {productdetails.delivery}    </li>  
-             <li>   EMI starts at  :- {productdetails.delivery}  No Cost EMI available  </li>
-              <li>    {productdetails.status}    </li>
-             <li>   Sold by  {productdetails.soldby} and Fulfilled by Amazon  </li>
-             <li>    {productdetails.about}    </li>
-             </ul>
-          </div>
-        </div>
-        <div
-          className="third_part"
-          style={{ width: "20%", backgroundColor: "lightgreen" }}>
-            
-          <Link to="/checkout">
-            <button type="submit"> Add to Cart </button>
-          </Link>
+            <div className="first_part"  style={{ width: "40%" }}>
+              <img src = {productdetails.image}
+                style = {{ width: "55%", margin: "5% 22%"}}  /> 
+            </div>
+            <div  className = "second_part"
+              style = {{ width: "40%", backgroundColor: "lightblue" }}>
 
-          <button type="submit"> Buy Now </button>
+              <div className="second_header">
+                        {productdetails.name} 
+                      <br></br>
+                  {productdetails.rating} 35,990 ratings | 1000+ answered questions  
+              </div>
+              <div className="second_main">
+
+                        Price :- {productdetails.price}    <br></br>
+                      Free delivery :- {productdetails.delivery}     <br></br> 
+                        EMI starts at  :- {productdetails.delivery}  No Cost EMI available  <br></br>
+                          {productdetails.status}  
+                          Sold by  {productdetails.soldby} and Fulfilled by Amazon   <br></br>
+                      {productdetails.about}    
+              </div>
         </div>
+
+          <div  className="third_part"
+              style={{ width: "20%", backgroundColor: "lightgreen" }}>
+              
+            <Link to="/checkout">
+              <button type="submit"> Add to Cart </button>
+            </Link>
+            <button type="submit"> Buy Now </button>
+          </div>
       </div>
     </>
   );
