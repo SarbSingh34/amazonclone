@@ -2,7 +2,8 @@ import React, { Component , createContext } from 'react' ;
 
 export const CartContext = createContext();
 
-class CartContextProvider extends Component {
+class CartContextProvider extends Component 
+{
     constructor(props) {
         super(props);
         let existingCart = localStorage.getItem('mycart') !=  undefined ? JSON.parse(localStorage.getItem('mycart')) : []; 

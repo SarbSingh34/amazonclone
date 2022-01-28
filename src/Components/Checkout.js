@@ -1,9 +1,9 @@
 import React, { useContext } from 'react';
 import Checkoutpg from "./Checkoutpg";
 import { CartContext } from "./CartContext";
+
 const Checkout = (props) => 
 {
-
   const {item,size,increment} = useContext(CartContext);
 
   return (
@@ -12,14 +12,14 @@ const Checkout = (props) =>
                  <h3> Shopping  Cart   </h3>
                   <div className="main_checkout">
                     {
-                          // item.map((value) =>
-                          // {
-                          //    <Checkoutpg />
-                          // })
+                          item.map((value) =>
+                          {
+                             <Checkoutpg />
+                          })
                     }
-                     <Checkoutpg />
-                     <Checkoutpg />
-                     <Checkoutpg />
+                     {/* <Checkoutpg />
+                     <Checkoutpg /> */}
+                    
                   </div>
           </div>
           <div className="second_checkout"   style = {{width:'25%' , backgroundColor:'lightgreen', margin:'2%'}}>
