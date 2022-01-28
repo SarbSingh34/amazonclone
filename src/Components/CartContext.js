@@ -28,7 +28,6 @@ class CartContextProvider extends Component {
                    localStorage.setItem('mycart',JSON.stringify(this.state.item))
                }
   
-
         }
     }
    
