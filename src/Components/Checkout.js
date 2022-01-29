@@ -10,17 +10,16 @@ const Checkout = (props) =>
      <div className="main_checkout" style = {{width:'100%',display:'flex',backgroundColor:'cadetblue'}}>
           <div className="first_checkout" style = {{width:'75%', backgroundColor:'lightblue',margin:'2%'}}>
                  <h3> Shopping  Cart   </h3>
-                  <div className="main_checkout">
+                  {/* <div className="main_checkout"> */}
                     {
-                          item.map((value) =>
-                          {
-                             <Checkoutpg />
-                          })
+                        //   item.map((value) =>
+                        //   {
+                             <Checkoutpg  />
+                        //   })
                     }
-                     {/* <Checkoutpg />
-                     <Checkoutpg /> */}
+                   
                     
-                  </div>
+                  {/* </div> */}
           </div>
           <div className="second_checkout"   style = {{width:'25%' , backgroundColor:'lightgreen', margin:'2%'}}>
                Subtotal(2 items):
