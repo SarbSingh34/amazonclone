@@ -10,12 +10,14 @@ const Checkout = (props) =>
      <div className="main_checkout" style = {{width:'100%',display:'flex',backgroundColor:'cadetblue'}}>
           <div className="first_checkout" style = {{width:'75%', backgroundColor:'lightblue',margin:'2%'}}>
                  <h3> Shopping  Cart   </h3>
-                  {/* <div className="main_checkout"> */}
+                 
                     {
-                        //   item.map((value) =>
-                        //   {
-                             <Checkoutpg  />
-                        //   })
+                         item.map((value) =>
+                          {
+                              return (
+                                <Checkoutpg  />
+                              )
+                           })
                     }
                    
                     
